@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    width: 98vw;
+    height: 20vh;
+    background-color: lightgreen;
+    font-size: 100px;
+    text-align: center;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    width: 98vw;
+    height: 10vh;
+    background-color: black;
+    color: white;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+li:hover{
+    background-color: lightgray;
+    height: 3vh;
+    border: none;
+    border-radius: 5px;
+}
+main{
+    width: 98vw;
+    height: 130vh;
+    background-image: url(./W3.png);
+}
